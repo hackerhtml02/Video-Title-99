@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Video Opener Through Title Extension Made By Muhammad Haris",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "https://youtube.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
