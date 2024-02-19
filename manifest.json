@@ -4,11 +4,11 @@
   "version": "1.0",
   "permissions": [
     "activeTab",
-    "https://youtube.com/*"
+    "https://www.youtube.com/*"
   ],
   "content_scripts": [
     {
-      "matches": ["https://youtube.com/*"],
+      "matches": ["https://www.youtube.com/*"],
       "js": ["content.js"]
     }
   ],
