@@ -1,5 +1,5 @@
-var xpath = "//a[@title='YouTube Full Automatic Watchtime Software | Autoplay Bot Play Videos and Auto Mute & Loop in 10min']";
-var timeout = 5000; // 5 seconds in milliseconds
+var xpath = "//a[@title='YouTube Full Automatic Watchtime Software Autoplay Bot Play Videos and Auto Mute Loop']";
+var timeout = 15000; // 15 seconds in milliseconds
 
 // Define a function to perform the XPath search and click operation
 function performClick() {
